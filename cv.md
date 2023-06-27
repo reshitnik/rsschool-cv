@@ -59,7 +59,7 @@ Engineer of the first category of Telecommunication Networks Operational Managem
 - Skillbox  Basic  coding (html,css) courses. Completed.
 ***
 
-##My project
+## My project
 [My cv](https://reshitnik.github.io/rsschool-cv/cv)
 ***
 ## Language proficiency
