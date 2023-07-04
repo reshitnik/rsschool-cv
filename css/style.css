@@ -92,7 +92,7 @@ h3, p {
 }
 
 .header-img {
-  background-image: url(/img/clip.jpg);
+  background-image: url(../img/clip.jpg);
   background-position: center;
   background-size: contain;
   width: 200px;
@@ -100,7 +100,7 @@ h3, p {
 }
 
 .header-img2{
-  background-image: url(/img/kisspng-coffee-paper-stains-5ac7f9c3bdf804.7740048515230550437781.png);
+  background-image: url(../img/kisspng-coffee-paper-stains-5ac7f9c3bdf804.7740048515230550437781.png);
   background-position: center;
   background-size: contain;
   width: 200px;
