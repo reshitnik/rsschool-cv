@@ -210,19 +210,19 @@ header {
 
 
 .item-phone {
-  background-image: url(/img/Tilda_Icons_1ed_phone.svg);
+  background-image: url(../img/Tilda_Icons_1ed_phone.svg);
 }
 .item-email {
-  background-image: url(/img/Tilda_Icons_1ed_mail.svg);
+  background-image: url(../img/Tilda_Icons_1ed_mail.svg);
 }
 .item-github {
-  background-image: url(/img/Tilda_Icons_26sn_gethub.svg);
+  background-image: url(../img/Tilda_Icons_26sn_gethub.svg);
 }
 .item-discord {
-  background-image: url(/img/Tilda_Icons_26sn_diskord.svg);
+  background-image: url(../img/Tilda_Icons_26sn_diskord.svg);
 }
 .item-location{
-  background-image: url(/img/Tilda_Icons_1ed_location.svg);
+  background-image: url(../img/Tilda_Icons_1ed_location.svg);
   margin: 0;
 }
 
