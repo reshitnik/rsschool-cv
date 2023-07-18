@@ -53,7 +53,7 @@ img {
 body {
   font-family: "Muller", sans-serif;
   font-weight: 400;
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 :root {
@@ -90,12 +90,36 @@ header {
   margin-bottom: 20px;
 }
 
+.header-top {
+  background-color:var(--white);
+  position: relative;
+  padding-right: 50px;
+}
+
 .header-img {
-  background-image: url(../img/clip.jpg);
+  background-image: url(../img/clipart1212399.png);
   background-position: center;
   background-size: contain;
-  width: 200px;
+  width: 150px;
+  height: 150px;
   background-repeat: no-repeat;
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+
+
+
+.header-img3 {
+  background-image: url(../img/5a220e9d40d0c3.7653186215121814052655.png);
+  background-position: center;
+  background-size: contain;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 35px;
+  right: 160px;
 }
 
 .header-img2{
@@ -105,21 +129,26 @@ header {
   width: 200px;
   background-repeat: no-repeat;
   margin-left: auto;
+  z-index: 1;
 }
-
-.header-top {
-  background-color:var(--white);
-  position: relative;
-}
-
 
 .header-profile {
   padding-top: 50px;
   padding-bottom: 20px;
+  padding-left: 130px;
 
 }
+
 .header-profile__descr {
   flex-direction: column;
+}
+.header-profile__descr--title {
+  font-size: 3em;
+  margin: 20px 0 0 0;
+}
+
+.header-profile__descr--text {
+  font-size: 30px;
 }
 
 .header-profile__photo {
@@ -190,22 +219,27 @@ header {
 }
 
 .item-card--link {
-  transition: font-weight 0.2s ease-in-out, outline 0.2s ease-in-out;
+  padding-bottom: 5px;
+  border-bottom: 2px solid gray;
+  transition: font-weight 0.2s ease-in-out, outline 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
 }
 
 .item-card--link:focus{
   font-weight: 600;
   outline: 3px solid grey;
   outline-offset: 5px;
+  border-bottom:none;
 }
 .item-card--link:hover{
   font-weight: 600;
   outline: 3px solid grey;
   outline-offset: 5px;
+  border-bottom:none;
 }
 .item-card--link:active{
   font-weight: 400;
   outline: 3px solid grey;
+  border-bottom:none;
 }
 
 
@@ -227,6 +261,8 @@ header {
 }
 
 .cv-list__item--link {
+  padding-bottom: 5px;
+  border-bottom: 2px solid gray;
   transition: font-weight 0.2s ease-in-out, outline 0.2s ease-in-out;
 }
 
@@ -234,15 +270,18 @@ header {
   font-weight: 600;
   outline: 3px solid grey;
   outline-offset: 5px;
+  border-bottom: none;
 }
 .cv-list__item--link:hover{
   font-weight: 600;
   outline: 3px solid grey;
   outline-offset: 5px;
+  border-bottom: none;
 }
 .cv-list__item--link:active{
   font-weight: 400;
   outline: 3px solid grey;
+  border-bottom: none;
 }
 
 .Experience {
