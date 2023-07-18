@@ -1,0 +1,80 @@
+.coffesshop-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.coffesshop-container--descr {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--black);
+}
+
+.coffeesshop-container__wrapper {
+    display: flex;
+}
+
+.coffe-card {
+    display: flex;
+    flex-direction: column;
+    width: 482px;
+    padding-bottom: 20px;
+}
+
+.coffe-card:not(:last-child){
+    margin-right: 480px;
+}
+
+.coffe-card--title {
+    font-family: "Forum", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: var(--sand);
+    margin-bottom: 40px;
+
+}
+
+.item-coffe {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.item-coffe--title {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: var(--black);
+    margin-right:auto;
+
+}
+
+.item-coffe--img {
+    width: 100px;
+    height: 1px;
+    background-color: var(--sand);
+    margin-right: 60px;
+}
+
+.item-coffe--price {
+    font-family: "Forum", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: var(--black);
+
+}
+
