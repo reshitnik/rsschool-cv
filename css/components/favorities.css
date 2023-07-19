@@ -108,8 +108,12 @@
     font-size: 15px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 2px;
+    letter-spacing: 1.9px;
     text-align: left;
+}
+
+.card-item--bookname {
+    text-transform: uppercase;
 }
 
 .card-item--bookauthor {
