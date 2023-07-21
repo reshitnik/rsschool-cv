@@ -144,6 +144,12 @@
     align-self: flex-start;
     margin-top: auto;
     padding: 9px 26px;
+    border-radius: 2px;
+}
+
+.--btn-own {
+    border: 1px solid var(--sand);
+    color: var(--sand);
 }
 
 .card-item--book--img {

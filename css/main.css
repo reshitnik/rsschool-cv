@@ -61,16 +61,42 @@ body {
 }
 
 
-/* .--btn-default {
-    width: fit-content;
-    border-radius: 20px;
-    background-color: var(--blue);
-    color: var(--white);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    align-items: center;
+.--btn-default {
     cursor: pointer;
-    transition:background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
     
-} */
+}
+
+.--btn-default:focus {
+    background-color: var(--white);
+    transition: background-color 0.2s ease-in-out;
+    border: 1px solid var(--sand);
+}
+
+.--btn-default:hover {
+    background-color: var(--sand);
+    border: 1px solid var(--sand);
+}
+
+.--btn-default:active {
+    background-color: var(--white);
+    border: 1px solid var(--black);
+}
+
+.--link-default {
+    cursor: pointer;
+    color: var(--dark);
+    transition: color 0.2s ease-in-out;
+}
+
+.--link-default:focus {
+    color: var(--gray);
+}
+
+.--link-default:hover {
+    color: var(--gray);
+}
+
+.--link-default:active {
+    color: var(--white);
+}

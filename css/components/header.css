@@ -32,3 +32,29 @@ margin-right: auto;
     line-height: 50px;
     color: var(--white);
 }
+
+.headerlist-item .--link-default {
+    color: var(--white);
+}
+
+.header-container--btn {
+    cursor: pointer;
+} 
+
+.header-container--btn path{
+    fill: var(--white);
+    transition: fill .2s ease-in-out;
+
+}
+
+.header-container--btn:focus path {
+    fill: var(--gray);
+}
+
+.header-container--btn:hover path {
+    fill: var(--gray);
+}
+
+.header-container--btn:active path {
+    fill: var(--white);
+}

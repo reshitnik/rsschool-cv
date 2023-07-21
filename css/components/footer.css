@@ -68,3 +68,27 @@
 .footer-container__bottom--link {
     cursor: pointer;
 }
+
+.footer-left .--link-default {
+    color: var(--white);
+}
+.footer-container__bottom .--link-default {
+    color: var(--white);
+}
+
+.footer-left__social--icon path{
+    fill :var(--white);
+    transition: fill .2s ease-in-out ;
+}
+
+.footer-left__social--icon:focus path{
+    fill: var(--gray);
+}
+
+.footer-left__social--icon:hover path{
+    fill:  var(--gray);
+}
+
+.footer-left__social--icon:active path{
+    fill:  var(--white);
+}
