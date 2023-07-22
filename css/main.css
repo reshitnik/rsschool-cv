@@ -28,6 +28,10 @@ body {
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .container {
     margin: 0 auto;
