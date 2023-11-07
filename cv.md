@@ -14,11 +14,10 @@ I have a strong and mature  personality with clearly defined aims. Don’t give 
 ***
 ## Skills
 - **IT:**
-<<<<<<< HEAD
+
    + Python basic, MySQL basic, html, css, javascript basic
-=======
    + Python basic, MySQL basic, html, css
->>>>>>> 6dad3a055058ff3ad74efa11775853b30622e4d2
+
 - **Management:**
   + Contracts of purchase, service contracts, lease arrangements. Team management 
 ***
@@ -61,10 +60,8 @@ Engineer of the first category of Telecommunication Networks Operational Managem
 - Python-development Skillbox Python Basic courses. Successfully completed the course and got a diploma in «Python Basic», wrote diploma thesis on Telegram-bot  for  hotel search. 
 - Skillbox MySql courses. Completed.
 - Skillbox  Basic  coding (html,css) courses. Completed.
-<<<<<<< HEAD
+
 - Rolling Scope Js/Frontend stage 0.
-=======
->>>>>>> 6dad3a055058ff3ad74efa11775853b30622e4d2
 ***
 
 ## My project
