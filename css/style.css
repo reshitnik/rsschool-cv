@@ -1,0 +1,352 @@
+
+@font-face {
+  font-family: "Muller";
+  src: local("MullerRegular"), 
+  url(../fonts/MullerRegular.woff2), 
+  url(../fonts/MullerRegular.woff);
+  font-weight: 400;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("MullerLight"), 
+  url(../fonts/MullerLight.woff2), 
+  url(../fonts/MullerLight.woff);
+  font-weight: 300;
+  font-style:normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("MullerBold"), 
+  url(../fonts/MullerBold.woff2), 
+  url(../fonts/MullerBold.woff);
+  font-weight: 600;
+  font-style:normal;
+  font-display: swap;
+}
+
+
+html {
+  box-sizing: border-box;
+  background: #E5E5E5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Muller", sans-serif;
+  font-weight: 400;
+  padding: 40px 0;
+}
+
+:root {
+  --white:white;
+  --black:black;
+}
+
+h3, p {
+  margin: 0;
+}
+
+/* global */
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex; 
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.header-top {
+  background-color:var(--white);
+  position: relative;
+  padding-right: 50px;
+}
+
+.header-img {
+  background-image: url(../img/clipart1212399.png);
+  background-position: center;
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -35px;
+  left: 0;
+}
+
+
+
+.header-img3 {
+  background-image: url(../img/5a220e9d40d0c3.7653186215121814052655.png);
+  background-position: center;
+  background-size: contain;
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 35px;
+  right: 160px;
+}
+
+.header-img2{
+  background-image: url(../img/kisspng-coffee-paper-stains-5ac7f9c3bdf804.7740048515230550437781.png);
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  z-index: 1;
+}
+
+.header-profile {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 130px;
+
+}
+
+.header-profile__descr {
+  flex-direction: column;
+}
+.header-profile__descr--title {
+  font-size: 3em;
+  margin: 20px 0 0 0;
+}
+
+.header-profile__descr--text {
+  font-size: 30px;
+}
+
+.header-profile__photo {
+  padding: 5px;
+  max-height: 200px;
+  margin-right: 20px;
+  border: 3px solid var(--black);
+  border-radius: 10px;
+}
+
+.header-bottom {
+  background-color:var(--white);
+  padding: 20px;
+  border: 3px solid var(--black);
+  border-radius: 5px;
+}
+
+.header-menu__list {
+  justify-content: space-between;
+}
+
+
+.header-menu__list-item--link {
+  border: 3px solid var(--black);
+  padding: 5px;
+  border-radius: 5px;
+  background-color: aliceblue;
+  transition: font-weight 0.2s ease-in-out, background-color 0.2s ease-in-out, padding 0.2s ease-in-out;
+  outline: none;
+}
+
+.header-menu__list-item--link:focus {
+  font-weight: 600;
+  background-color: var(--white);
+}
+.header-menu__list-item--link:hover {
+  font-weight: 600;
+  background-color: var(--white);
+  padding: 10px;
+}
+.header-menu__list-item--link:active {
+  font-weight: 400;
+  background-color: var(--white);
+}
+
+.cv-list{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.item {
+  padding: 10px;
+  width:49%;
+  border: 3px solid var(--black);
+  border-radius: 5px;
+  background-color: var(--white);
+  margin-bottom: 10px;
+}
+
+.item-card {
+  width: initial;
+  padding: 20px 0 20px 70px;
+  margin-bottom: 5px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.item-card--link {
+  padding-bottom: 5px;
+  border-bottom: 2px solid gray;
+  transition: font-weight 0.2s ease-in-out, outline 0.2s ease-in-out, border-bottom 0.2s ease-in-out;
+}
+
+.item-card--link:focus{
+  font-weight: 600;
+  outline: 3px solid grey;
+  outline-offset: 5px;
+  border-bottom:none;
+}
+.item-card--link:hover{
+  font-weight: 600;
+  outline: 3px solid grey;
+  outline-offset: 5px;
+  border-bottom:none;
+}
+.item-card--link:active{
+  font-weight: 400;
+  outline: 3px solid grey;
+  border-bottom:none;
+}
+
+
+.item-phone {
+  background-image: url(../img/Tilda_Icons_1ed_phone.svg);
+}
+.item-email {
+  background-image: url(../img/Tilda_Icons_1ed_mail.svg);
+}
+.item-github {
+  background-image: url(../img/Tilda_Icons_26sn_gethub.svg);
+}
+.item-discord {
+  background-image: url(../img/Tilda_Icons_26sn_diskord.svg);
+}
+.item-location{
+  background-image: url(../img/Tilda_Icons_1ed_location.svg);
+  margin: 0;
+}
+
+.cv-list__item--link {
+  padding-bottom: 5px;
+  border-bottom: 2px solid gray;
+  transition: font-weight 0.2s ease-in-out, outline 0.2s ease-in-out;
+}
+
+.cv-list__item--link:focus{
+  font-weight: 600;
+  outline: 3px solid grey;
+  outline-offset: 5px;
+  border-bottom: none;
+}
+.cv-list__item--link:hover{
+  font-weight: 600;
+  outline: 3px solid grey;
+  outline-offset: 5px;
+  border-bottom: none;
+}
+.cv-list__item--link:active{
+  font-weight: 400;
+  outline: 3px solid grey;
+  border-bottom: none;
+}
+
+.Experience {
+  margin-bottom: 20px;
+}
+
+.experince-cont {
+  padding: 10px;
+  background-color: var(--white);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+}
+
+.span-all {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list-text__main {
+  margin-bottom: 10px;
+}
+
+.footer-cont {
+  padding: 20px 100px 20px 100px;
+  background-color: var(--white);
+  border: 3px solid var(--black);
+  border-radius: 5px;
+}
+
+.footer-cont__list  {
+ justify-content: space-between;
+ align-items: end;
+}
+
+.item-footer {
+  margin-right: 30px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.item-footer__link{
+  fill: black;
+  transition: fill 0.2s ease-in-out;
+}
+
+.item-footer__link:focus{
+  outline: 3px solid black;
+}
+.item-footer__link:hover path{
+  fill: gray;
+  
+}
+
+.item-footer__link:active{
+  outline: none;
+}
+
+
+.cv-list__item--skills {
+  list-style-type: disclosure-closed;
+}
+
+.cv-list__item--skills--span {
+  font-weight: 600;
+  font-size: 20px;
+}
